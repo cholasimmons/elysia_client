@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
         ],
         child: MaterialApp(
             title: 'Elysia Client',
+            debugShowCheckedModeBanner: false,
             theme: ThemeData(
               colorScheme: ColorScheme.fromSeed(seedColor: Colors.cyanAccent),
               useMaterial3: true,
